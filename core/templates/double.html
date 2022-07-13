@@ -24,5 +24,12 @@
         <li>Name: {{item.name}} | Value: {{item.value}} | Double: {{item.double_value}} | Date: {{item.date}} | </li>
     {% endfor %}
 </ul>
+
+
+<ul>
+    {% for item in last_5min %}
+        <li>Name: {{item.name}} | Value: {{item.value}} | Double: {{item.double_value}} | Date: {{item.date}} | </li>
+    {% endfor %}
+</ul>
 </body>
 </html>
